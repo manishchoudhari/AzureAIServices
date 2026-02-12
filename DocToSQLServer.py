@@ -2,6 +2,7 @@
 # Document Analysis using Azure Document Intelligence Service
 # Author: Manish Choudhari
 # Prerequisites: Install  pip install azure-ai-formrecognizer azure-core pyodbc    
+# File Name: DocToSQLServer.py 
 #========================================================================================
 
 import os
@@ -69,3 +70,4 @@ def run_analysis():
 
 if __name__ == "__main__":
     run_analysis()
+
