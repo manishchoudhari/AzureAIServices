@@ -23,10 +23,11 @@ added_values = set()
 
 # SQL Server connection string
 connection_string = (
-    "Driver={ODBC Driver 17 for SQL Server};"
-    "Server=SONALI;"
-    "Database=test;"
-    "Trusted_Connection=yes;"
+      "Driver={ODBC Driver 17 for SQL Server};"
+      "Server=YOUR_SERVER_NAME;"
+      "Database=YOUR_DATABASE_NAME;"
+      "UID=YOUR_USERNAME;"
+      "PWD=YOUR_PASSWORD;"
 )
 
 def run_analysis():
@@ -70,4 +71,5 @@ def run_analysis():
 
 if __name__ == "__main__":
     run_analysis()
+
 
